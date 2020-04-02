@@ -1,0 +1,47 @@
+body{
+	font-size: 2em;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	background: rgb(238,174,202);
+	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+	color: white;
+	letter-spacing: 5px;
+	user-select: none;
+}
+
+li{
+	list-style-type: none;
+	cursor: pointer;
+}
+
+.done{
+	text-decoration: line-through;
+}
+
+#text, #button{
+	font-size: 1.2em;
+	border: none;
+	outline: none;
+
+
+}
+#button{
+	background-color: rgba(0,0,0,0.1);
+	color: white;
+	cursor: pointer;
+
+}
+#text{
+	color: white;
+	background-color: rgba(0,0,0,0.1);
+	border: none;
+	outline: none;
+}
+
+.newButton{
+	background-color: grey;
+	width: 30px;
+	height: 30px;
+	border-radius: 40px;
+	margin-left: 100px;
+}
