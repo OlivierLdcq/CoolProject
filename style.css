@@ -35,10 +35,12 @@ li{
 	color: white;
 	background-color: rgba(0,0,0,0.1);
 	border: none;
-	outline: none;
+	outline: 0;
 }
 
 .newButton{
+	outline: 0;
+	border: none;
 	background-color: grey;
 	width: 30px;
 	height: 30px;
