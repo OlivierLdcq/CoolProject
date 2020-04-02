@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/OlivierLdcq/CoolProject/issues"
   },
-  "homepage": "https://github.com/OlivierLdcq/CoolProject#readme"
+  "homepage": "https://github.com/OlivierLdcq/CoolProject#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
 }
